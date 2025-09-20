@@ -10,7 +10,7 @@ Date: 28th Aug, 2025.
 ============================================================================
 */
 
-
+//ln -s file1.txt softlink.txt
 
 
 // a. Soft link using symlink()
