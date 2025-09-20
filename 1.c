@@ -18,8 +18,8 @@ Date: 28th Aug, 2025.
 #include <unistd.h>
 
 int main() {
-    if (symlink("file1.txt", "softlink.txt") == -1)
-        perror("symlink error");
+    symlink("file1.txt", "softlink.txt");
+    
     return 0;
 }
  
